@@ -21,7 +21,7 @@ When updating this audit log:
 - Document all changes between the last update and the current state of the project
 - Entries must be in reverse chronological order (newest entries at the top)
 
-## Change Log
+## Log
 
 ### 2023-04-11 (Shell Compatibility Updates)
 - Updated documentation and scripts to be less bash-specific and more compatible with various shells.
