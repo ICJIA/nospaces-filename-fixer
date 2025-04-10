@@ -1,8 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# This script uses Bash features but should work in most modern shells
 
 # Test script for nospaces.sh
 # This script creates test files with various challenging filenames,
 # runs nospaces.sh on them, and verifies the results
+# Compatible with bash, zsh, and other modern shells
 
 # Colors for output
 GREEN='\033[0;32m'

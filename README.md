@@ -1,6 +1,6 @@
 # NoSpaces File Utility
 
-A bash utility script for cleaning up filenames by replacing spaces with underscores, removing quotes, and setting appropriate file permissions.
+A shell script utility for cleaning up filenames by replacing spaces with underscores, removing quotes, and setting appropriate file permissions.
 
 ## Technical Requirements
 - **Operating System**: Linux-based systems
@@ -23,13 +23,13 @@ A bash utility script for cleaning up filenames by replacing spaces with undersc
 
 Make the script available to all users on the system:
 
-```bash
+```shell
 chmod +x nospaces.sh
 sudo cp nospaces.sh /usr/local/bin/nospaces
 ```
 
 Verify installation:
-```bash
+```shell
 which nospaces
 ```
 
@@ -39,32 +39,38 @@ To make the script executable from anywhere in your home directory without sudo 
 
 1. Create a bin directory in your home if it doesn't exist:
 
-```bash
+```shell
 mkdir -p ~/bin
 ```
 
 2. Copy the script to your bin directory and make it executable:
 
-```bash
+```shell
 cp nospaces.sh ~/bin/nospaces
 chmod +x ~/bin/nospaces
 ```
 
-3. Add your bin directory to your PATH if it's not already there. Add this to your `~/.bashrc` or `~/.bash_profile`:
+3. Add your bin directory to your PATH if it's not already there. Add this to your shell configuration file (e.g., `~/.bashrc`, `~/.zshrc`, `~/.profile`):
 
-```bash
+```shell
 export PATH="$HOME/bin:$PATH"
 ```
 
-4. Apply the changes:
+4. Apply the changes by sourcing your configuration file:
 
-```bash
-source ~/.bashrc  # or source ~/.bash_profile
+```shell
+# For bash
+source ~/.bashrc
+
+# For zsh
+source ~/.zshrc
+
+# For other shells, source the appropriate configuration file
 ```
 
 5. Verify installation:
 
-```bash
+```shell
 which nospaces
 ```
 
@@ -72,13 +78,13 @@ Now you can run `nospaces` from anywhere in your home directory.
 
 ## Usage
 
-```bash
+```shell
 nospaces <filename>
 ```
 
 ### Examples
 
-```bash
+```shell
 nospaces "my file.txt"        # -> my_file.txt
 nospaces "user's file.txt"    # -> users_file.txt
 nospaces "my \"quoted\" file" # -> my_quoted_file
@@ -108,7 +114,7 @@ The utility comes with a comprehensive test script (`test_nospaces.sh`) that ver
 
 ### Running Tests
 
-```bash
+```shell
 chmod +x test_nospaces.sh
 ./test_nospaces.sh
 ```

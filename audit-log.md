@@ -1,7 +1,7 @@
-# NoSpaces Bash Utility Audit Log
+# NoSpaces Shell Script Utility Audit Log
 
 ## Project Description
-NoSpaces is a bash utility script designed to clean up filenames by replacing spaces with underscores, removing single and double quotes, and setting appropriate file permissions (777). The tool includes safety features such as preventing overwriting of existing files and requiring user confirmation before renaming.
+NoSpaces is a shell script utility designed to clean up filenames by replacing spaces with underscores, removing single and double quotes, and setting appropriate file permissions (777). The tool includes safety features such as preventing overwriting of existing files and requiring user confirmation before renaming.
 
 ## Technical Requirements
 - **Operating System**: Linux-based systems
@@ -22,6 +22,14 @@ When updating this audit log:
 - Entries must be in reverse chronological order (newest entries at the top)
 
 ## Change Log
+
+### 2023-04-11 (Shell Compatibility Updates)
+- Updated documentation and scripts to be less bash-specific and more compatible with various shells.
+- Files modified:
+  - `README.md`: Updated language to be shell-agnostic, changed code block identifiers from bash to shell
+  - `nospaces.sh`: Updated shebang to use /usr/bin/env bash for better portability, added note about shell compatibility
+  - `test_nospaces.sh`: Updated shebang and added note about shell compatibility
+  - `audit-log.md`: Updated language to be shell-agnostic
 
 ### 2023-04-10 (User Installation Instructions)
 - Added detailed instructions for user-specific installation without sudo privileges.

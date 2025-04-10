@@ -1,8 +1,9 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# This script uses Bash features but should work in most modern shells
 
 ###############################################################################
 # Name: nospaces.sh
-# Description: Utility script to clean up filenames by:
+# Description: Shell script utility to clean up filenames by:
 #   - Replacing spaces with underscores
 #   - Removing single and double quotes
 #   - Setting file permissions to 777 (rwxrwxrwx)
@@ -26,9 +27,10 @@
 #
 # After Changes:
 #   If you modify this script, remember to:
-#   1. Source your shell to apply changes:
+#   1. Source your shell configuration file to apply changes:
 #      source ~/.bashrc     # For Bash
 #      source ~/.zshrc      # For Zsh
+#      source ~/.profile    # For other shells
 #   2. If installed globally, copy again:
 #      sudo cp nospaces.sh /usr/local/bin/nospaces
 #
