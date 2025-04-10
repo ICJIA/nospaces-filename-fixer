@@ -1,4 +1,4 @@
-# Audit Log Rules Template
+# Audit Log Rules Prompt
 
 When creating an audit log for a new project, include the following sections and follow these guidelines:
 
