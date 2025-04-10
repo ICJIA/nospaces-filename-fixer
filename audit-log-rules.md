@@ -20,11 +20,13 @@ The audit log should:
 
 ## Structure
 Each audit log entry must include:
-- Date of change (YYYY-MM-DD format)
+- Date of change (YYYY-MM-DD format) using the current date when the change is made
 - Brief descriptive title in parentheses
 - 1-2 sentence summary of the change
 - List of all files modified with brief descriptions of changes
 - Entries in reverse chronological order (newest at top)
+
+**Important**: Always use the current date when creating entries, not placeholder or example dates. This ensures the audit log accurately reflects when changes were actually made.
 
 ## Content Requirements
 When updating the audit log:
@@ -44,7 +46,7 @@ When updating the audit log:
 ## Example Audit Log Entry
 
 ```
-### 2023-04-15 (Security Enhancement and Bug Fix)
+### 2025-04-10 (Security Enhancement and Bug Fix)
 - Implemented enhanced password hashing and fixed user authentication bypass vulnerability.
 - Files modified:
   - `src/auth/password.js`: Updated password hashing algorithm from MD5 to bcrypt with 12 rounds of salting

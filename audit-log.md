@@ -23,7 +23,7 @@ When updating this audit log:
 
 ## Log
 
-### 2023-04-11 (Shell Compatibility Updates)
+### 2025-04-10 (Shell Compatibility Updates)
 - Updated documentation and scripts to be less bash-specific and more compatible with various shells.
 - Files modified:
   - `README.md`: Updated language to be shell-agnostic, changed code block identifiers from bash to shell
@@ -31,25 +31,25 @@ When updating this audit log:
   - `test_nospaces.sh`: Updated shebang and added note about shell compatibility
   - `audit-log.md`: Updated language to be shell-agnostic
 
-### 2023-04-10 (User Installation Instructions)
+### 2025-04-10 (User Installation Instructions)
 - Added detailed instructions for user-specific installation without sudo privileges.
 - Files modified:
   - `README.md`: Added section on how to install the script in a user's home directory and make it executable from anywhere
 
-### 2023-04-10 (Bug Fixes and Testing)
+### 2025-04-10 (Bug Fixes and Testing)
 - Fixed bugs in the script and added comprehensive testing.
 - Files modified:
   - `nospaces.sh`: Fixed issues with leading spaces and permission setting for files without spaces/quotes
   - `test_nospaces.sh`: Created test script with various test cases to verify functionality
   - `README.md`: Added detailed testing section with descriptions of all test cases
 
-### 2023-04-10 (Technical Documentation)
+### 2025-04-10 (Technical Documentation)
 - Added technical requirements to documentation.
 - Files modified:
   - `README.md`: Added technical requirements section specifying OS requirements and noting Ubuntu 22.04 WSL2 testing
   - `audit-log.md`: Added technical requirements section with the same information
 
-### 2023-04-10 (Initial Project Creation)
+### 2025-04-10 (Initial Project Creation)
 - Initial project creation with core functionality for filename cleaning and permission setting.
 - Files created:
   - `nospaces.sh`: Main script implementing the filename cleaning functionality
