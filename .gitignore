@@ -1,0 +1,20 @@
+# Environment variables
+.env
+*.env
+
+# Logs
+*.log
+logs/
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+.DS_Store
+
+# Bash history
+.bash_history
+
+# Local development
+local/
