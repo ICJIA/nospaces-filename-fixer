@@ -7,7 +7,7 @@ A shell script utility for cleaning up filenames by replacing spaces with unders
 - **Permissions**: Requires sudo access for global installation
 - **Dependencies**: No external dependencies beyond core utilities
 
-**Important**: This utility has been extensively tested in Ubuntu 22.04 running in Windows WSL2 environment and is confirmed to work reliably in this configuration.
+**Important**: This utility has been extensively tested in Ubuntu 22.04 running in [Windows WSL2 environment](https://learn.microsoft.com/en-us/windows/wsl/) and is confirmed to work reliably in this configuration.
 
 ## Features
 
